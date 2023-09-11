@@ -43,3 +43,72 @@ img {
 .main-content {
   flex-grow: 1;
 }
+
+/* INTRO-CONTENT */
+.intro-content {
+  max-width: 570px;
+  padding: 55px 60px;
+  background-image: url(../img/bg-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #222;
+}
+
+.intro-item {
+  width: 100%;
+  max-width: 389px;
+}
+
+.intro-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
+  display: inline-block;
+  padding: 5px 15px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  border: 1px solid #fff;
+  border-radius: 41px;
+}
+
+.intro-heading {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.intro-text {
+  max-width: 347px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 203px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.intro-bottom {
+  margin: 0 -60px -55px;
+  padding: 29px;
+  font-size: 19px;
+  line-height: normal;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+  background-color: #4DC490;
+}
+
+.intro-bottom-bold-text {
+  font-weight: 700;
+}
+
+.intro-bottom-normal-text {
+  font-weight: 400;
+}
